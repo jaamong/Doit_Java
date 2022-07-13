@@ -11,5 +11,11 @@ public class CalculatorTest {
         //호출하고 싶다면 down casting
 
         System.out.println(calc.add(num1, num2));
+
+        calc.description();
+
+        int[] arr = {1,2,3,4};
+        int sum = Calc.total(arr);
+        System.out.println(sum);
     }
 }
